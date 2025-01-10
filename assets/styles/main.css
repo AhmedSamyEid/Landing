@@ -145,13 +145,13 @@ p {
   max-width: 100%;
   height: auto;
 }
-.but , .bttn {
+.but  {
   flex: 1 1 100%;
   display: flex;
   justify-content: start;
   gap: 15px;
 }
-.but button , .bttn button {
+.but button  {
   padding: 10px;
   background-color: var(--title-color);
   color: var(--alt-bg);
@@ -185,7 +185,18 @@ p {
   text-align: center;
 }
 .bttn {
-  margin: 15px 0 0 50px;
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.bttn button {
+  padding: 10px;
+  background-color: var(--title-color);
+  color: var(--alt-bg);
+  border: none;
+  cursor: pointer;
+  margin: 15px 0 0 0;
 }
 .bor {
   border-top: 1px solid #c8c8c8;
