@@ -164,3 +164,19 @@ p {
     text-align: center; 
   }
 }
+.cols {
+  flex: 1 1 300px;
+  margin: 60px 0 0 50px;
+  max-width: 600px;
+}
+.clo {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  flex-wrap: wrap;
+}
+.clo img {
+  max-width: 100%;
+  height: auto;
+}
