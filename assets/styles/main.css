@@ -48,6 +48,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--text-color);
+  z-index: 9;
 }
 nav {
   z-index: 1;
@@ -144,13 +145,13 @@ p {
   max-width: 100%;
   height: auto;
 }
-.but {
+.but ,.bttn {
   flex: 1 1 100%;
   display: flex;
   justify-content: start;
   gap: 15px;
 }
-.but button {
+.but button , .bttn {
   padding: 10px;
   background-color: var(--title-color);
   color: var(--alt-bg);
@@ -179,4 +180,10 @@ p {
 .clo img {
   max-width: 100%;
   height: auto;
+}
+.price {
+  text-align: center;
+}
+.bttn {
+  margin: 15px 0 0 625px;
 }
